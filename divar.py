@@ -48,6 +48,7 @@ def child_to_array(array):
     return array
 
 
+
 def search_in_categories(category_name, categories):
     categories = [get_categories()]
     all_subcategories = child_to_array(categories)
