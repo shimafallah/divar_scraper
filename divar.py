@@ -168,4 +168,3 @@ for divar_item in divar_products:
     result[range_key].append(divar_item)
 
 result = json.dumps(result)
-print(result)
